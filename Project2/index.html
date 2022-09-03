@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css">
+    <title>Log in to Facebook</title>
+</head>
+<body class="bg-gray-100 ">
+    <nav class="hidden md:block bg-blue-800 ">
+        <ul class="flex space-x-5 px-10 py-3 justify-end text-white text-[18px] font-medium font-sans">
+            <li class="bg-blue-900 w-24 text-center rounded-md border-2 border-transparent hover:border-2 hover:border-blue-900 hover:bg-blue-50 hover:text-blue-800">API</li>
+            <li class="bg-blue-900 w-24 text-center rounded-md border-2 border-transparent hover:border-2 hover:border-blue-900 hover:bg-blue-50 hover:text-blue-800">Careers</li>
+            <li class="bg-blue-900 w-24 text-center rounded-md border-2 border-transparent hover:border-2 hover:border-blue-900 hover:bg-blue-50 hover:text-blue-800">Bussiness</li>
+        </ul>
+    </nav>
+    <div class="container mt-10 mb-3 sm:mt-40 flex mx-auto items-center justify-center flex-col sm:flex-row lg:space-x-40 lg:max-h-full">
+        <div class="left w-2/3 sm:w-1/3 mx-14">
+            <img src="fbImg.svg" alt="" class=" mx-auto sm:mx-0 w-60 ">
+            <p class="text-left text-3xl hidden sm:block mx-6 ">Facebook helps you connect and share with the people in your life.</p>
+
+        </div>
+        <div class="right shadow-md shadow-black flex flex-col bg-white p-8 rounded-xl w-3/4 sm:w-2/5 lg:w-1/4 lg:h-[60vh] justify-center">
+            <span class="sm:hidden mx-auto text-2xl mb-2">Login to Facebook</span>
+            <input type="text" class="px-4 h-12 my-2 border  border-gray-200 rounded-lg focus:border-gray-100 focus:outline-none" placeholder="Email or Phone number">
+            <input type="password" class="px-4 h-12 my-2 border  border-gray-200 rounded-lg focus:border-gray-100 focus:outline-none" placeholder="Password">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white my-2 py-3 rounded-md font-bold ">Log In</button>
+            <span class="text-blue-600 text-center text-sm my-2 cursor-pointer hover:underline">
+                Forgotten account?
+            </span>
+            <hr class="my-2">
+            <button class="btn bg-green-600 hover:bg-green-700 text-white my-2 px-2 py-3 mx-auto rounded-md font-bold w-fit">Create Account</button>
+        </div>
+    </div>
+</body>
+</html>
